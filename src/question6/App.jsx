@@ -1,13 +1,13 @@
-// 6. React router med foto-länkar 5p
-// Visa på sidan: 10 thumbnails (små foton) från detta api: https://jsonplaceholder.typicode.com/photos/
-// Api:et ger tillbaka en array med foto-objekt.
+// 6. Next pages router med users-länkar. Lös i separat next-projekt 5p
+
+// Visa på sidan: 10 users från detta api: https://jsonplaceholder.typicode.com/users/
+// Api:et ger tillbaka en array med user-objekt.
 //
-// Url:en till varje thumbnail finns i "thumbnailUrl" i varje foto-objekt.
-// När man klickar på fotot ska man komma till en sida som visar det större fotot som
-// finns i "url" för varje foto-objekt.
+// När man klickar på en users namn ska man komma till en sida som visar följande för en user:
+// username, email och website
 //
-// Om man skickar med id:et för fotot i länken kan man hämta info om just det fotot genom att
-// anropa api:et med det id:et. Så här: `https://jsonplaceholder.typicode.com/photos/${id}`
-// För id 12 blir alltså anropet: https://jsonplaceholder.typicode.com/photos/12
+// Om man skickar med id:et för usern i länken kan man hämta info om just den usern genom att
+// anropa api:et med det id:et. Så här: `https://jsonplaceholder.typicode.com/users/${id}`
+// För id 12 blir alltså anropet: https://jsonplaceholder.typicode.com/users/12
 
 // Skapa separat projekt i nextjs!
